@@ -1,4 +1,4 @@
-Funzione: blocco riusabile di codice.
+<!-- Funzione: blocco riusabile di codice.
 
 
 parametri( valori IMPUT) QUALI POSSONO RESTITUZIONE DI UN VALORE; 
@@ -21,4 +21,59 @@ ESEMPIO: numero % 5 === 0: Questa espressione è vera se numero è un multiplo d
 
 
 TIPI DI DATO= NUMERI CON PARAMETRO N; ( ESEMPIO N =1,2,3,)
-"Fizz", "Buzz" e "FizzBuzz"  ( STRINGHE - IN SOSTITUZIONE DEI NUMERI!!!!!)
+"Fizz", "Buzz" e "FizzBuzz"  ( STRINGHE - IN SOSTITUZIONE DEI NUMERI!!!!!) -->
+
+
+
+<!-- ALTRO METODO//
+
+ -->
+
+ <!-- VIDEO-PILLOLA -->
+<!-- inizio scrivemdo :
+
+
+// funzione con parametro: n ciclo for: stampa i numeri da 1 a N( 100 ; poi con ciclo if, else ,;... sostituiamo valori e con modulo capiamo se sono divisibili o meno)
+ function FrizzBuzz(n) {
+
+    for(let i = 0; i <= n; i++){
+
+
+console.log(i);
+    }
+
+ }
+
+
+// parametro reale, cambiabile.
+ FrizzBuzz(50);
+ -->
+
+
+
+
+
+  <!-- Ora aggiungo cicli e condizioni x numeri  divisibili / stringhe->
+
+ function FrizzBuzz(n) {
+
+    for(let i = 0; i <= n; i++){
+
+
+if( i% 15 == 0){
+
+console.log("FrizzBuzz");
+
+
+ }else if( 1 % 5 == 0 ){
+ console.loG(frizz);
+    }else if( 1 % 3 == 0 ){
+    cvonsole.log( "Buzz);
+
+    //esplusione se nn divis. x 3, 5 e 15;...
+    }else 
+{
+console.log(i);
+}
+}
+}
